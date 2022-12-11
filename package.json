@@ -1,0 +1,25 @@
+{
+  "name": "giphy-webhook",
+  "version": "1.0.0",
+  "description": "webhook for Giphy API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/journeycruz/giphy-webhook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/journeycruz/giphy-webhook/issues"
+  },
+  "homepage": "https://github.com/journeycruz/giphy-webhook#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "request": "^2.88.2"
+  }
+}
