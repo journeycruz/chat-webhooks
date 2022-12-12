@@ -13,6 +13,13 @@ export default async function handler(req, res) {
     "https://192.168.1.173:5001/webapi/entry.cgi?api=SYNO.Chat.External&method=chatbot&version=2&token=%22JtF6RRdRyedV6CN6YgWuUs2UQSBmx0Hos6oOX7palkQpSRxT9qmJCVtw4hX0QuIb%22",
     {
       method: "POST",
+      params: {
+        api: "SYNO.Chat.External",
+        method: "incoming",
+        version: "2",
+        token:
+          "%22JtF6RRdRyedV6CN6YgWuUs2UQSBmx0Hos6oOX7palkQpSRxT9qmJCVtw4hX0QuIb%22",
+      },
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",
       },
@@ -21,5 +28,5 @@ export default async function handler(req, res) {
       },
     }
   );
-  post()
+  post();
 }
