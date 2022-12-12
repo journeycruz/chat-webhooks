@@ -1,26 +1,21 @@
 {
-  "name": "giphy-webhook",
-  "version": "1.0.0",
-  "description": "webhook for Giphy API",
-  "main": "index.js",
+  "name": "syno-chat-webhooks",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/journeycruz/giphy-webhook.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/journeycruz/giphy-webhook/issues"
-  },
-  "homepage": "https://github.com/journeycruz/giphy-webhook#readme",
   "dependencies": {
-    "body-parser": "^1.20.1",
     "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "request": "^2.88.2"
+    "next": "13.0.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.29.0",
+    "eslint-config-next": "13.0.6"
   }
 }
